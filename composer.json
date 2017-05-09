@@ -1,0 +1,23 @@
+{
+  "name": "mijat/blog",
+  "description": "Blog Package",
+  "authors": [
+    {
+      "name": "Mijatovic Milan",
+      "email": "mijatovicmilan7@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "illuminate/support": "~5.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src"
+    ],
+    "psr-4": {
+      "App\\": "app/",
+      "Mijat\\Blog\\": "packages/mijat/blog/src"
+    }
+  }
+}
